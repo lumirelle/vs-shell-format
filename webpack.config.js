@@ -7,6 +7,7 @@
 
 'use strict';
 
+const CopyPlugin = require('copy-webpack-plugin')
 const path = require('path');
 
 /**@type {import('webpack').Configuration}*/
@@ -42,6 +43,11 @@ const config = {
       },
     ],
   },
+  plugins: [
+    new CopyPlugin({
+      patterns: [{ from: 'node_modules/@one-ini/wasm/one_ini_bg.wasm', to: 'one_ini_bg.wasm' }]
+    })
+  ],
 };
 
 module.exports = config;
