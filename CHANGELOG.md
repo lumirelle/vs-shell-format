@@ -2,6 +2,10 @@
 
 Check [Keep a Changelog](https://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.4
+
+docs: update README.md, use png instead of svg, because svg is restricted in README.md
+
 ## 0.0.3
 
 docs: update README.md badges and links

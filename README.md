@@ -54,7 +54,7 @@
 ## Sponsors
 
 <p align="center">
-  <a href="https://cdn.jsdelivr.net/gh/lumirelle/static/sponsors.svg">
-    <img src='https://cdn.jsdelivr.net/gh/lumirelle/static/sponsors.svg'/>
+  <a href="https://cdn.jsdelivr.net/gh/lumirelle/static/sponsors.png">
+    <img src='https://cdn.jsdelivr.net/gh/lumirelle/static/sponsors.png'/>
   </a>
 </p>
