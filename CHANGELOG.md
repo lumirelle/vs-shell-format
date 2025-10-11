@@ -2,6 +2,15 @@
 
 Check [Keep a Changelog](https://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.1
+
+fix: plugin will always crash since ini_one_bg.wasm is not found
+
+See https://github.com/foxundermoon/vs-shell-format/issues/396. 
+
+Since the original package no longer maintained, I try to fork this package, fix this issue and re-publish new package
+to marketplace.
+
 ## 0.0.0
 
 Changelogs for original project.
