@@ -1,9 +1,9 @@
 {
-  "name": "shell-format",
-  "displayName": "shell-format",
+  "name": "shell-format-rev",
+  "displayName": "shell-format-rev",
   "description": "A formatter for shell scripts, Dockerfile, gitignore, dotenv, /etc/hosts, jvmoptions, and other file types",
-  "version": "7.2.8",
-  "publisher": "foxundermoon",
+  "version": "0.0.1",
+  "publisher": "Lumirelle",
   "engines": {
     "vscode": "^1.36.0"
   },
@@ -29,10 +29,10 @@
   "icon": "logo.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/foxundermoon/vs-shell-format.git"
+    "url": "https://github.com/lumirelle/vs-shell-format.git"
   },
   "bugs": {
-    "url": "https://github.com/foxundermoon/vs-shell-format/issues"
+    "url": "https://github.com/lumirelle/vs-shell-format/issues"
   },
   "keywords": [
     "shell",
@@ -187,30 +187,34 @@
     "compile": "webpack --mode none",
     "watch": "webpack --mode none --watch",
     "test-compile": "tsc -p ./",
+    "pretest": "npm run compile && npm run test-compile",
     "test": "node ./out/test/runTest.js",
     "format": "pretty-quick",
     "format-check": "pretty-quick --check"
   },
   "devDependencies": {
-    "@types/mocha": "10.0.1",
-    "@types/node": "18.16.19",
+    "@types/mocha": "10.0.10",
+    "@types/node": "18.19.130",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2",
+    "@vscode/vsce": "^3.6.2",
+    "copy-webpack-plugin": "^13.0.1",
     "husky": "8.0.3",
     "lint-staged": "13.3.0",
-    "mocha": "10.2.0",
-    "ovsx": "^0.10.4",
-    "prettier": "3.0.0",
-    "pretty-quick": "3.1.3",
-    "ts-loader": "9.4.4",
-    "typescript": "5.1.6",
-    "vsce": "2.15.0",
+    "mocha": "10.8.2",
+    "ovsx": "^0.10.6",
+    "prettier": "3.6.2",
+    "pretty-quick": "4.2.2",
+    "ts-loader": "9.5.4",
+    "typescript": "5.9.3",
     "vscode": "^1.1.37",
-    "vscode-test": "^1.6.1",
-    "webpack": "5.88.2",
+    "webpack": "5.102.1",
     "webpack-cli": "5.1.4"
   },
   "dependencies": {
-    "diff": "~5.1.0",
-    "editorconfig": "^2.0.0"
+    "diff": "~5.2.0",
+    "editorconfig": "^3.0.1",
+    "install": "^0.13.0"
   },
   "licenses": [
     {

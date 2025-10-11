@@ -46,7 +46,10 @@ export class Formatter {
   static formatCommand = 'shfmt';
   diagnosticCollection: DiagnosticCollection;
 
-  constructor(public context: vscode.ExtensionContext, public output: vscode.OutputChannel) {
+  constructor(
+    public context: vscode.ExtensionContext,
+    public output: vscode.OutputChannel
+  ) {
     this.diagnosticCollection = vscode.languages.createDiagnosticCollection('shell-format');
   }
 
@@ -172,7 +175,7 @@ export class Formatter {
           if (chunk instanceof Buffer) {
             bc = chunk;
           } else {
-            bc = new Buffer(chunk);
+            bc = Buffer.from(chunk);
           }
           shfmtOut.push(bc);
         });
@@ -182,7 +185,7 @@ export class Formatter {
           if (chunk instanceof Buffer) {
             bc = chunk;
           } else {
-            bc = new Buffer(chunk);
+            bc = Buffer.from(chunk);
           }
           shfmtErr.push(bc);
         });
@@ -247,7 +250,10 @@ export class Formatter {
 export class ShellDocumentFormattingEditProvider implements vscode.DocumentFormattingEditProvider {
   private settings: vscode.WorkspaceConfiguration;
 
-  constructor(public formatter: Formatter, settings?: vscode.WorkspaceConfiguration) {
+  constructor(
+    public formatter: Formatter,
+    settings?: vscode.WorkspaceConfiguration
+  ) {
     if (settings === undefined) {
       this.settings = vscode.workspace.getConfiguration(configurationPrefix);
     } else {
