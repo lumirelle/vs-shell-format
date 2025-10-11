@@ -1,6 +1,18 @@
+# VS Code Shell Script Formatter
+
+<a href="https://marketplace.visualstudio.com/items?itemName=lumirelle.shell-format-rev" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/lumirelle.shell-format-rev.svg?color=eee&amp;label=VS%20Code%20Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=lumirelle.shell-format-rev" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/d/lumirelle.shell-format-rev?style=flat-square&label=Downloads" /></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=lumirelle.shell-format-rev" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/i/lumirelle.shell-format-rev?style=flat-square&label=Installs" /></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=lumirelle.shell-format-rev" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/stars/lumirelle.shell-format-rev?style=flat-square&label=Rating" /></a>
+<a href="https://github.com/lumirelle/vs-shell-format" target="__blank"><img src="https://github.com/lumirelle/vs-shell-format/actions/workflows/CI.yml/badge.svg" /></a>
+<a href="https://github.com/lumirelle/vs-shell-format" target="__blank"><img src="https://github.com/lumirelle/vs-shell-format/actions/workflows/CD.yml/badge.svg" /></a>
+<a href="https://kermanx.github.io/reactive-vscode/" target="__blank"><img src="https://img.shields.io/badge/made_with-reactive--vscode-%23007ACC?style=flat&labelColor=%23229863"  alt="Made with reactive-vscode" /></a>
+
 [Get it on the VS Code Marketplace!](https://marketplace.visualstudio.com/items?itemName=lumirelle.shell-format-rev)
 
-# supported file types or languages
+**Enjoy shellscript!**
+
+## Supported file types or languages
 
 | language    | extension                | describe              |
 | ----------- | ------------------------ | --------------------- |
@@ -14,34 +26,19 @@
 
 ---
 
-|                                                                                                                                                                                                                                   |                                                                                                              |                                                                                                            |                                                                                                                |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| ![version](https://img.shields.io/visual-studio-marketplace/v/lumirelle.shell-format-rev?style=flat-square)                                                                                                                        | ![downloads](https://img.shields.io/visual-studio-marketplace/d/lumirelle.shell-format-rev?style=flat-square) | ![install](https://img.shields.io/visual-studio-marketplace/i/lumirelle.shell-format-rev?style=flat-square) | ![ratings](https://img.shields.io/visual-studio-marketplace/stars/lumirelle.shell-format-rev?style=flat-square) |
-| [![Financial Contributors on Open Collective](https://opencollective.com/vsformat/all/badge.svg?label=financial+contributors)](https://opencollective.com/vsformat) ![LICENSE](https://img.shields.io/badge/license-mit-blue.svg) | ![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)                                         | ![star](https://img.shields.io/github/stars/lumirelle/vs-shell-format.svg)                              | ![forks](https://img.shields.io/github/forks/lumirelle/vs-shell-format.svg)                                 |
-
----
-
-|                                                                                 build                                                                                 |                                                                                  release                                                                                   |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [![CI](https://github.com/lumirelle/vs-shell-format/actions/workflows/CI.yml/badge.svg)](https://github.com/lumirelle/vs-shell-format/actions/workflows/CI.yml) | [![RELEASE](https://github.com/lumirelle/vs-shell-format/actions/workflows/CD.yml/badge.svg)](https://github.com/lumirelle/vs-shell-format/actions/workflows/CD.yml) |
-
-[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.svg)](https://gitter.im/vs-shell-format/community)
-
----
-
 ![screenshot](https://github.com/lumirelle/vs-shell-format/raw/master/image/shell_format.gif)
 
-## usage
+## Usage
 
 <kbd>shift</kbd>+<kbd>option</kbd>+<kbd>f</kbd>
 
 <kbd>shift</kbd>+<kbd>command</kbd>+<kbd>p</kbd> then type `Format Document`
 
-## dependencies
+## Dependencies
 
 - [shfmt](https://github.com/mvdan/sh#shfmt)
 
-## custom configuration
+## Custom configuration
 
 - `shellformat.path` the shfmt fullpath example [mac,linux]: `/usr/local/bin/shfmt` [windows]: `C:\\bin\\shfmt.exe`
 - `shellformat.flag` shfmt -h to see detailed usage.
@@ -50,38 +47,14 @@
 
 ## Links
 
-### [source code](https://github.com/lumirelle/vs-shell-format)
+### [Source code](https://github.com/lumirelle/vs-shell-format)
 
-### [shfmt](https://github.com/mvdan/sh)
+### [shfmt (mvdan/sh)](https://github.com/mvdan/sh)
 
-**Enjoy shellscript!**
+## Sponsors
 
-## Contributors
-
-### Code Contributors
-
-This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="https://github.com/lumirelle/vs-shell-format/graphs/contributors"><img src="https://opencollective.com/vsformat/contributors.svg?width=890&button=false" /></a>
-
-### Financial Contributors
-
-Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/vsformat/contribute)]
-
-#### Individuals
-
-<a href="https://opencollective.com/vsformat"><img src="https://opencollective.com/vsformat/individuals.svg?width=890"></a>
-
-#### Organizations
-
-Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/vsformat/contribute)]
-
-<a href="https://opencollective.com/vsformat/organization/0/website"><img src="https://opencollective.com/vsformat/organization/0/avatar.svg"></a>
-<a href="https://opencollective.com/vsformat/organization/1/website"><img src="https://opencollective.com/vsformat/organization/1/avatar.svg"></a>
-<a href="https://opencollective.com/vsformat/organization/2/website"><img src="https://opencollective.com/vsformat/organization/2/avatar.svg"></a>
-<a href="https://opencollective.com/vsformat/organization/3/website"><img src="https://opencollective.com/vsformat/organization/3/avatar.svg"></a>
-<a href="https://opencollective.com/vsformat/organization/4/website"><img src="https://opencollective.com/vsformat/organization/4/avatar.svg"></a>
-<a href="https://opencollective.com/vsformat/organization/5/website"><img src="https://opencollective.com/vsformat/organization/5/avatar.svg"></a>
-<a href="https://opencollective.com/vsformat/organization/6/website"><img src="https://opencollective.com/vsformat/organization/6/avatar.svg"></a>
-<a href="https://opencollective.com/vsformat/organization/7/website"><img src="https://opencollective.com/vsformat/organization/7/avatar.svg"></a>
-<a href="https://opencollective.com/vsformat/organization/8/website"><img src="https://opencollective.com/vsformat/organization/8/avatar.svg"></a>
-<a href="https://opencollective.com/vsformat/organization/9/website"><img src="https://opencollective.com/vsformat/organization/9/avatar.svg"></a>
+<p align="center">
+  <a href="https://cdn.jsdelivr.net/gh/lumirelle/static/sponsors.svg">
+    <img src='https://cdn.jsdelivr.net/gh/lumirelle/static/sponsors.svg'/>
+  </a>
+</p>
