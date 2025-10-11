@@ -2,6 +2,10 @@
 
 Check [Keep a Changelog](https://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.2
+
+fix: update package name and publisher name in package.json and CD.yml
+
 ## 0.0.1
 
 fix: plugin will always crash since ini_one_bg.wasm is not found
