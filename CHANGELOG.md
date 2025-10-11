@@ -2,23 +2,30 @@
 
 Check [Keep a Changelog](https://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.5
+
+- docs: update CHANGELOG.md
+
 ## 0.0.4
 
-docs: update README.md, use png instead of svg, because svg is restricted in README.md
+- docs: update README.md, use png instead of svg, because svg is restricted in README.md
 
 ## 0.0.3
 
-docs: update README.md badges and links
+- docs: update README.md badges and links
 
 ## 0.0.2
 
-fix: update package name and publisher name in package.json and CD.yml
+- fix: update package name and publisher name in package.json and CD.yml
 
 ## 0.0.1
 
-fix: plugin will always crash since ini_one_bg.wasm is not found
+- fix: plugin will always crash since ini_one_bg.wasm is not found
 
-See https://github.com/foxundermoon/vs-shell-format/issues/396. 
+  See https://github.com/foxundermoon/vs-shell-format/issues/396.
+
+- chore: update dependencies
+- chore: bump shfmt to 3.12.0
 
 Since the original package no longer maintained, I try to fork this package, fix this issue and re-publish new package
 to marketplace.
