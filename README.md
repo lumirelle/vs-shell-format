@@ -1,4 +1,4 @@
-[Get it on the VS Code Marketplace!](https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format)
+[Get it on the VS Code Marketplace!](https://marketplace.visualstudio.com/items?itemName=lumirelle.shell-format-rev)
 
 # supported file types or languages
 
@@ -16,20 +16,20 @@
 
 |                                                                                                                                                                                                                                   |                                                                                                              |                                                                                                            |                                                                                                                |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| ![version](https://img.shields.io/visual-studio-marketplace/v/foxundermoon.shell-format?style=flat-square)                                                                                                                        | ![downloads](https://img.shields.io/visual-studio-marketplace/d/foxundermoon.shell-format?style=flat-square) | ![install](https://img.shields.io/visual-studio-marketplace/i/foxundermoon.shell-format?style=flat-square) | ![ratings](https://img.shields.io/visual-studio-marketplace/stars/foxundermoon.shell-format?style=flat-square) |
-| [![Financial Contributors on Open Collective](https://opencollective.com/vsformat/all/badge.svg?label=financial+contributors)](https://opencollective.com/vsformat) ![LICENSE](https://img.shields.io/badge/license-mit-blue.svg) | ![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)                                         | ![star](https://img.shields.io/github/stars/foxundermoon/vs-shell-format.svg)                              | ![forks](https://img.shields.io/github/forks/foxundermoon/vs-shell-format.svg)                                 |
+| ![version](https://img.shields.io/visual-studio-marketplace/v/lumirelle.shell-format-rev?style=flat-square)                                                                                                                        | ![downloads](https://img.shields.io/visual-studio-marketplace/d/lumirelle.shell-format-rev?style=flat-square) | ![install](https://img.shields.io/visual-studio-marketplace/i/lumirelle.shell-format-rev?style=flat-square) | ![ratings](https://img.shields.io/visual-studio-marketplace/stars/lumirelle.shell-format-rev?style=flat-square) |
+| [![Financial Contributors on Open Collective](https://opencollective.com/vsformat/all/badge.svg?label=financial+contributors)](https://opencollective.com/vsformat) ![LICENSE](https://img.shields.io/badge/license-mit-blue.svg) | ![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)                                         | ![star](https://img.shields.io/github/stars/lumirelle/vs-shell-format.svg)                              | ![forks](https://img.shields.io/github/forks/lumirelle/vs-shell-format.svg)                                 |
 
 ---
 
 |                                                                                 build                                                                                 |                                                                                  release                                                                                   |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [![CI](https://github.com/foxundermoon/vs-shell-format/actions/workflows/CI.yml/badge.svg)](https://github.com/foxundermoon/vs-shell-format/actions/workflows/CI.yml) | [![RELEASE](https://github.com/foxundermoon/vs-shell-format/actions/workflows/CD.yml/badge.svg)](https://github.com/foxundermoon/vs-shell-format/actions/workflows/CD.yml) |
+| [![CI](https://github.com/lumirelle/vs-shell-format/actions/workflows/CI.yml/badge.svg)](https://github.com/lumirelle/vs-shell-format/actions/workflows/CI.yml) | [![RELEASE](https://github.com/lumirelle/vs-shell-format/actions/workflows/CD.yml/badge.svg)](https://github.com/lumirelle/vs-shell-format/actions/workflows/CD.yml) |
 
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.svg)](https://gitter.im/vs-shell-format/community)
 
 ---
 
-![screenshot](https://github.com/foxundermoon/vs-shell-format/raw/master/image/shell_format.gif)
+![screenshot](https://github.com/lumirelle/vs-shell-format/raw/master/image/shell_format.gif)
 
 ## usage
 
@@ -50,7 +50,7 @@
 
 ## Links
 
-### [source code](https://github.com/foxundermoon/vs-shell-format)
+### [source code](https://github.com/lumirelle/vs-shell-format)
 
 ### [shfmt](https://github.com/mvdan/sh)
 
@@ -61,7 +61,7 @@
 ### Code Contributors
 
 This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="https://github.com/foxundermoon/vs-shell-format/graphs/contributors"><img src="https://opencollective.com/vsformat/contributors.svg?width=890&button=false" /></a>
+<a href="https://github.com/lumirelle/vs-shell-format/graphs/contributors"><img src="https://opencollective.com/vsformat/contributors.svg?width=890&button=false" /></a>
 
 ### Financial Contributors
 
