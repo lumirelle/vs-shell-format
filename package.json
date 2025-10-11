@@ -3,7 +3,7 @@
   "displayName": "shell-format-rev",
   "description": "A formatter for shell scripts, Dockerfile, gitignore, dotenv, /etc/hosts, jvmoptions, and other file types",
   "version": "0.0.1",
-  "publisher": "Lumirelle",
+  "publisher": "lumirelle",
   "engines": {
     "vscode": "^1.36.0"
   },
