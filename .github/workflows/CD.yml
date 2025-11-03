@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - master
+  pull_request:
+    branches:
+      - master
 
 jobs:
   unit-test:
@@ -61,7 +64,7 @@ jobs:
           node-version: '20'
       - name: read version
         run: |
-          PACKAGE_VERSION=$(node -p "require('./package.json').version")
+          PACKAGE_VERSION=\"$(node -p "require('./package.json').version")\"
           echo "PACKAGE_VERSION=$PACKAGE_VERSION" >> $GITHUB_ENV
           echo "PACKAGE_VERSION=$PACKAGE_VERSION"
           PUBLISHED_VERSION=$(curl 'https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery' \
