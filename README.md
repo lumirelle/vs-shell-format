@@ -9,6 +9,12 @@
 
 <!-- <a href="https://kermanx.github.io/reactive-vscode/" target="__blank"><img src="https://img.shields.io/badge/made_with-reactive--vscode-%23007ACC?style=flat&labelColor=%23229863"  alt="Made with reactive-vscode" /></a> -->
 
+> [!Note]
+>
+> Since the original package no longer maintained, I just try to fork this package, fix this issue and re-publish new package to marketplace.
+>
+> See https://github.com/foxundermoon/vs-shell-format/issues/396.
+
 [Get it on the VS Code Marketplace!](https://marketplace.visualstudio.com/items?itemName=lumirelle.shell-format-rev)
 
 **Enjoy shellscript!**
@@ -51,6 +57,10 @@
 ### [Source code](https://github.com/lumirelle/vs-shell-format)
 
 ### [shfmt (mvdan/sh)](https://github.com/mvdan/sh)
+
+## Thanks
+
+- [foxundermoon](htpps://github.com/foxundermoon) for original package and maintenance.
 
 ## Sponsors
 
