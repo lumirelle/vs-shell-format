@@ -1,4 +1,4 @@
-# VS Code Shell Script Formatter
+# VS Code Shell Script Formatter -- Revision
 
 <a href="https://marketplace.visualstudio.com/items?itemName=lumirelle.shell-format-rev" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/lumirelle.shell-format-rev.svg?color=eee&amp;label=VS%20Code%20Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
 <a href="https://marketplace.visualstudio.com/items?itemName=lumirelle.shell-format-rev" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/d/lumirelle.shell-format-rev?style=flat-square&label=Downloads" /></a>
@@ -10,6 +10,8 @@
 <!-- <a href="https://kermanx.github.io/reactive-vscode/" target="__blank"><img src="https://img.shields.io/badge/made_with-reactive--vscode-%23007ACC?style=flat&labelColor=%23229863"  alt="Made with reactive-vscode" /></a> -->
 
 > [!Note]
+>
+> This is a fork of [foxundermoon/vs-shell-format](https://github.com/foxundermoon/vs-shell-format).
 >
 > Since the original package no longer maintained, I just try to fork this package, fix this issue and re-publish new package to marketplace.
 >
