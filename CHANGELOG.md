@@ -2,6 +2,14 @@
 
 Check [Keep a Changelog](https://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.6
+
+- docs: update README.md
+- docs: add notes about this fork and the original project
+- docs: add original project contributors
+- chore: update package description
+- ci: fix release check
+
 ## 0.0.5
 
 - docs: update CHANGELOG.md
