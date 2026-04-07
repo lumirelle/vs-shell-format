@@ -1,7 +1,7 @@
 {
-  "name": "shell-format-rev",
-  "displayName": "shell-format-revision",
-  "description": "Revision of shell-format: A formatter for shell scripts, Dockerfile, gitignore, dotenv, /etc/hosts, jvmoptions, and other file types",
+  "name": "shell-script-formatter",
+  "displayName": "Shell-like Formatter",
+  "description": "Revision of shell-format: A formatter for shell-like scripts, Dockerfile, gitignore, dotenv, /etc/hosts, jvmoptions, and other file types",
   "version": "0.0.6",
   "publisher": "lumirelle",
   "engines": {

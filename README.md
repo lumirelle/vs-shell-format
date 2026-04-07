@@ -1,4 +1,4 @@
-# VS Code Shell Script Formatter -- Revision
+# Shell-like Formatter For VS Code
 
 <a href="https://marketplace.visualstudio.com/items?itemName=lumirelle.shell-format-rev" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/lumirelle.shell-format-rev.svg?color=eee&amp;label=VS%20Code%20Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
 <a href="https://marketplace.visualstudio.com/items?itemName=lumirelle.shell-format-rev" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/d/lumirelle.shell-format-rev?style=flat-square&label=Downloads" /></a>
