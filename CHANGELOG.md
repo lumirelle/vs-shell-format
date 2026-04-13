@@ -2,6 +2,10 @@
 
 Check [Keep a Changelog](https://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.7
+
+- chore: republish package to marketplace after beeing unlocked
+
 ## 0.0.6
 
 - docs: update README.md
