@@ -1,7 +1,7 @@
 {
   "name": "shell-format-rev",
   "displayName": "VSCode Shell-like Formatter",
-  "description": "Revision of shell-format: A formatter for shell-like scripts, Dockerfile, gitignore, dotenv, /etc/hosts, jvmoptions, and other file types",
+  "description": "Revision of shell-format: A formatter for shell-like scripts, gitignore, dotenv, /etc/hosts, jvmoptions, and other file types",
   "version": "0.0.7",
   "publisher": "lumirelle",
   "engines": {
@@ -13,7 +13,6 @@
   "activationEvents": [
     "onLanguage:shellscript",
     "onLanguage:dotenv",
-    "onLanguage:dockerfile",
     "onLanguage:ignore",
     "onLanguage:hosts",
     "onLanguage:jvmoptions",
@@ -40,7 +39,6 @@
     "shellscript",
     "format",
     "bash",
-    "dockerfile",
     "properties",
     "formatter",
     "beautify",
@@ -58,18 +56,6 @@
     "languages": [
       {
         "id": "shellscript"
-      },
-      {
-        "id": "dockerfile",
-        "aliases": [
-          "docker",
-          "Dockerfile"
-        ],
-        "filenamePatterns": [
-          "Dockerfile",
-          "Dockerfile.*",
-          "*.dockerfile"
-        ]
       },
       {
         "id": "ignore",
@@ -160,7 +146,6 @@
           "type": "array",
           "default": [
             "shellscript",
-            "dockerfile",
             "dotenv",
             "hosts",
             "jvmoptions",

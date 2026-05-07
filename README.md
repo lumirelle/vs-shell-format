@@ -26,7 +26,6 @@
 | language    | extension                | describe              |
 | ----------- | ------------------------ | --------------------- |
 | shellscript | .sh .bash                | shell script files    |
-| dockerfile  | Dockerfile               | docker files          |
 | ignore      | .gitignore .dockerignore | ignore files          |
 | properties  | .properties              | java properties files |
 | jvmoptions  | .vmoptions , jvm.options | jvm options file      |
