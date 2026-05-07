@@ -23,6 +23,12 @@
 
 ## Supported file types or languages
 
+> [!Caution]
+>
+> Since v1.0, this extension drops the support for Dockerfile due to the limitation of upstream tool [shfmt](https://github.com/mvdan/sh), see related [PR](https://github.com/lumirelle/vs-shell-format/pull/9) for more details.
+>
+> It's recommended to use another extension – [Container Tools](https://github.com/microsoft/vscode-containers) instead!
+
 | language    | extension                | describe              |
 | ----------- | ------------------------ | --------------------- |
 | shellscript | .sh .bash                | shell script files    |
