@@ -2,6 +2,10 @@
 
 Check [Keep a Changelog](https://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.1.0
+
+- BREAKING CHANGE!: remove support for dockerfile as it's not supported by upstream tool shfmt
+
 ## 0.0.7
 
 - chore: republish package to marketplace after beeing unlocked
