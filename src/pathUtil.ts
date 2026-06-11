@@ -44,5 +44,6 @@ export function substitutePath(filePath: string): string {
     vscode.workspace.workspaceFolders && vscode.workspace.workspaceFolders[0].uri.fsPath;
   return filePath
     .replace(/\${workspaceRoot}/g, workspaceFolder || '')
-    .replace(/\${workspaceFolder}/g, workspaceFolder || '');
+    .replace(/\${workspaceFolder}/g, workspaceFolder || '')
+    .replace(/\${env:([^=}]+)}/g, (sub: string, envName: string) => (process.env[envName] ?? ''));
 }
