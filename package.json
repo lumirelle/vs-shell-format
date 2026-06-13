@@ -129,7 +129,10 @@
         ],
         "filenames": [
           ".zshrc",
-          ".zshenv"
+          ".zshenv",
+          ".zprofile",
+          ".zlogin",
+          ".zlogout"
         ]
       }
     ],

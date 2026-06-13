@@ -85,7 +85,7 @@ export class Formatter {
         if (/\.bats$/.test(document.fileName)) {
           shfmtFlags.push('--ln=bats');
         }
-        if (/\.(zsh|zshrc|zshenv)$/.test(document.fileName)) {
+        if (/\.(zsh|zshrc|zshenv|zprofile|zlogin|zlogout)$/.test(document.fileName)) {
           shfmtFlags.push('--ln=zsh');
         }
 
