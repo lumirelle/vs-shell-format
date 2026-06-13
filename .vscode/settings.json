@@ -9,5 +9,11 @@
   "files.associations": {
     ".azure-pipelines/*.yml": "azure-pipelines"
   },
-  "typescript.tsdk": "./node_modules/typescript/lib" // we want to use the TS server from our node_modules folder to control its version
+  "typescript.tsdk": "./node_modules/typescript/lib", // we want to use the TS server from our node_modules folder to control its version
+
+  "[shellscript]": { "editor.defaultFormatter": "lumirelle.shell-format-rev" },
+  "[properties]": { "editor.defaultFormatter": "lumirelle.shell-format-rev" },
+  "[dotenv]": { "editor.defaultFormatter": "lumirelle.shell-format-rev" },
+  "[ignore]": { "editor.defaultFormatter": "lumirelle.shell-format-rev" },
+  "[zsh]": { "editor.defaultFormatter": "lumirelle.shell-format-rev" }
 }
