@@ -2,6 +2,10 @@
 
 Check [Keep a Changelog](https://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.3.0
+
+- feat: add zsh support via [#13](https://github.com/lumirelle/vs-shell-format/pull/13)
+
 ## 0.2.0
 
 - feat: Add env var processing to `shellformat.path`
