@@ -1,4 +1,4 @@
 export const config = {
-  shfmtVersion: 'v3.12.0',
+  shfmtVersion: 'v3.13.1',
   needCheckInstall: true,
 };

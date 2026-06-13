@@ -37,6 +37,7 @@
 | jvmoptions  | .vmoptions , jvm.options | jvm options file      |
 | hosts       | /etc/hosts               | hosts file            |
 | bats        | .bats                    | Bats test file        |
+| zsh         | .zsh .zshrc .zshenv      | zsh script files      |
 
 ---
 

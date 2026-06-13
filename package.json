@@ -19,7 +19,8 @@
     "onLanguage:properties",
     "onLanguage:spring-boot-properties",
     "onLanguage:azcli",
-    "onLanguage:bats"
+    "onLanguage:bats",
+    "onLanguage:zsh"
   ],
   "main": "./dist/extension",
   "capabilities": {
@@ -120,6 +121,16 @@
         "extensions": [
           ".bats"
         ]
+      },
+      {
+        "id": "zsh",
+        "extensions": [
+          ".zsh"
+        ],
+        "filenames": [
+          ".zshrc",
+          ".zshenv"
+        ]
       }
     ],
     "configuration": {
@@ -154,7 +165,8 @@
             "properties",
             "spring-boot-properties",
             "azcli",
-            "bats"
+            "bats",
+            "zsh"
           ],
           "description": "the trigger effect  on the language"
         },
